@@ -1,5 +1,4 @@
-# python
-#python learning
+# 基本运算
 '1'*10#十个字符串相乘
 print 25**0.5# 开根号
 '''
@@ -10,6 +9,7 @@ print 3
 import math
 math.sqrt(25)
 
+#  range函数
 start = 0
 end = 10
 print range(start,end)#range函数
@@ -42,7 +42,7 @@ for n in candidates:
     assert((a1-a2)==0)
     print (n,a1,a1-a2)
     
-#循环终止
+# 循环终止
 for i in range(100):
     if (i>=10):
         break
@@ -62,7 +62,7 @@ for i in range(10):
 #二进制对数ln(x)==>math.log(x,2)
 math.exp(1)
 
-#变量赋值：从右边往左边赋值.不能用python保留字作为变量名
+# 变量赋值：从右边往左边赋值.不能用python保留字作为变量名
 x = 1
 y = 2
 print (x,y)
@@ -73,7 +73,7 @@ import keyword
 print keyword.kwlist
 
 
-#课堂练习1:
+# 课堂练习1:
 base = 250000
 year = input("year:")
 base_year = 2017
@@ -97,7 +97,7 @@ print power_function(5,2)
 print squar_function(5)
 
 
-#课堂练习2:
+# 课堂练习2:
 base = 250000
 base_year = 2017
 rate = 0.012
@@ -117,7 +117,7 @@ print which_year(target)
 
 
 
-#条件控制语句:控制语句后都以冒号结尾
+# 条件控制语句:控制语句后都以冒号结尾
 def my_max(x,y,z):
     if x >= y:
         if x >= z:
